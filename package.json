@@ -6,7 +6,6 @@
     "scripts": {
         "start": "nodemon ./src/curso.js",
         "debug": "nodemon --inspect-brk ./src/Uchoa_Lemos/boleta.js",
-        "debugBruno": "nodemon --inspect-brk ./src/Bruno_Avila/boleta.js",
         "promessa": "node ./src/promise.js",
         "test": "nodemon --inspect-brk ./src/tests/testeConnection.js",
         "test2": "nodemon  ./src/tests/testConnection.js -- --inspect-brk"
