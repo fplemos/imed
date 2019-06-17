@@ -1,0 +1,50 @@
+{
+    "name": "cursonode",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon ./src/curso.js",
+        "debug": "nodemon --inspect-brk ./src/Uchoa_Lemos/boleta.js",
+        "debugBruno": "nodemon --inspect-brk ./src/Bruno_Avila/boleta.js",
+        "promessa": "node ./src/promise.js",
+        "test": "nodemon --inspect-brk ./src/tests/testeConnection.js",
+        "test2": "nodemon  ./src/tests/testConnection.js -- --inspect-brk"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "compression": "^1.7.4",
+        "express": "^4.17.1",
+        "investira.sdk": "file:../../investira.sdk",
+        "investira.server.sdk": "file:../../investira.server.sdk",
+        "nconf": "^0.10.0"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "jshintConfig": {
+        "curly": true,
+        "eqeqeq": false,
+        "latedef": false,
+        "undef": false,
+        "varstmt": true,
+        "funcscope": true,
+        "supernew": true,
+        "boss": true,
+        "eqnull": true,
+        "strict": false,
+        "scripturl": true,
+        "maxdepth": 4,
+        "maxparams": 5,
+        "esversion": 9,
+        "globals": {
+            "esversion": 9,
+            "location": true,
+            "printStackTrace": false,
+            "gLog": true,
+            "gRC": true
+        },
+        "browser": true,
+        "node": true
+    }
+}

@@ -1,0 +1,13 @@
+-- CREATE DE SCHEMA
+CREATE DATABASE  IF NOT EXISTS `node` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `node`;
+
+-- CREATE DE TABELAS
+CREATE TABLE `usuario` (
+  `usuario_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(255) NOT NULL,
+  `aniversario` datetime DEFAULT NULL,
+  `created` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
+  PRIMARY KEY (`usuario_id`),
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
